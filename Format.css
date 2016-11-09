@@ -1,0 +1,33 @@
+.twoColumnFlexVertical{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-content: flex-start;
+
+}
+.columnOne{
+order: 1;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+margin: 0 auto;
+}
+.columnTwo {
+order: 2;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+margin: 0 auto;
+} 
+.columnTwo p {
+	font-color: white;
+}
+
+
+
+
+footer {
+	background-color: #26262a;
+	height: 375px;
+}
