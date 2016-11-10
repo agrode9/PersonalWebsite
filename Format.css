@@ -1,20 +1,37 @@
 .hero {
 	 line-height: .5; 
   position: relative;
+  background-color: #247291;
+  height: 70%;
 }
-.hero img {
-    width: 100%; 
-    height: auto;
-    z-index: -1;
-    position: relative;
-}
+
 .hero h1{
 	 left: 0;
     position:absolute;
     text-align:center;
-    top: 145px;
+    top: 250px;
     width: 100%
 }
+
+.subHero{
+	background-color: #F8DA5B;
+	height: 500px;
+}
+.subHero h1 {
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+body {
+	background-color: #EEF2E2;
+	height: 1000px;
+}
+
+
+
 h1 {
 	position: absolute;
 	color: white;
@@ -80,7 +97,7 @@ margin: 0 auto;
 }
 
 footer {
-	background-color: #26262a;
+	background-color: #F5F9EE;
 	height: 375px;
 }
 
