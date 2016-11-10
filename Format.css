@@ -1,3 +1,33 @@
+.hero {
+	 line-height: .5; 
+  position: relative;
+}
+.hero img {
+    width: 100%; 
+    height: auto;
+    z-index: -1;
+    position: relative;
+}
+.hero h1{
+	 left: 0;
+    position:absolute;
+    text-align:center;
+    top: 145px;
+    width: 100%
+}
+h1 {
+	position: absolute;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+}
+p {
+	color: white;
+}
+h3 {
+	color: white;
+	text-align: center;
+}
 .twoColumnFlexVertical{
 display: flex;
 flex-direction: column;
@@ -21,13 +51,44 @@ align-self: auto;
 margin: 0 auto;
 } 
 .columnTwo p {
-	font-color: white;
+    font-size: 15px;
+    color: white;
 }
-
-
-
+.footerListWords {
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.footerList a{
+   text-decoration: none;
+    font-family: 'Lato', serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    padding: 2rem;
+}
+.footerListWords a {
+     text-decoration: none;
+    font-family: 'Lato', san-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.footerListWords a:hover{
+    color: #b70101;
+}
 
 footer {
 	background-color: #26262a;
 	height: 375px;
+}
+
+  @media screen and (min-width: 75em) {
+    .hero img {
+      object-fit: cover;
+      object-position: 0% 22%;
+      /*the defualt was at 400px for max-height*/
+      max-height: 450px; 
+    }
 }
