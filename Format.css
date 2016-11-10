@@ -81,7 +81,7 @@ margin: 0 auto;
     font-family: 'Lato', serif;
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
     padding: 0px;
     padding: 2rem;
 }
@@ -90,7 +90,7 @@ margin: 0 auto;
     font-family: 'Lato', san-serif;
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
     padding: 20px;
 }
 .footerListWords a:hover{
