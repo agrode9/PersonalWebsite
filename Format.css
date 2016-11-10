@@ -2,7 +2,10 @@
 	 line-height: .5; 
   position: relative;
   background-color: #247291;
-  height: 70%;
+  height: 100%;
+  display: block;
+  width: auto;
+  overflow: hidden;
 }
 
 .hero h1{
@@ -10,12 +13,12 @@
     position:absolute;
     text-align:center;
     top: 250px;
-    width: 100%
+    width: 100%;
+    color: white;
 }
-
 .subHero{
 	background-color: #F8DA5B;
-	height: 500px;
+	height: 200px;
 }
 .subHero h1 {
 	color: black;
@@ -23,23 +26,22 @@
 	text-align: center;
 	margin: 0 auto;
 	position: absolute;
-	width: 100%;
+	width: 99%;
+	padding-top: 75px;
 }
 body {
 	background-color: #EEF2E2;
-	height: 1000px;
 }
-
 
 
 h1 {
-	position: absolute;
-	color: white;
+	position: relative;
 	font-size: 70px;
 	text-align: center;
+	width: 100%
 }
 p {
-	color: white;
+	color: black;
 }
 h3 {
 	color: white;
