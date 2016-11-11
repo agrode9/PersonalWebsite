@@ -1,3 +1,4 @@
+
 .nav {
      background-color: transparent;
     list-style: none;
@@ -205,7 +206,8 @@ button:hover{
   transition: all .3s linear;
 }
 
-.tint:hover:before { background: rgba(0,0,0, .6); }
+.tint:hover:before { background: rgba(0,0,0, .6); 
+}
 .tint:hover button{
   display: inline;
   transition: all .3s linear;
@@ -376,7 +378,7 @@ margin: 0 auto;
 .footerListWords a:hover{
     color: #F8DA5B;
   transition: all .3s linear;
-
+}
 footer {
 	background-color: #F5F9EE;
 	height: 300px;
@@ -443,9 +445,6 @@ footer {
   font-size: 3em;
   text-align: center;
 }
-
-
-
 
 }
 
