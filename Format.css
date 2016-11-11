@@ -129,7 +129,8 @@ p {
 	color: black;
 }
 h3 {
-	color: white;
+	color: black;
+  font-size: 22px;
 	text-align: center;
 }
 .recentProjectsContainer {
@@ -246,7 +247,7 @@ flex: 0 1 auto;
 align-self: auto;
 
 }
-.columntwo {
+.columnTwo {
 order: 2;
 flex-basis: auto;
 flex: 0 1 auto;
@@ -259,12 +260,44 @@ background-color: #b70101;
   height: 300px;
   width: auto;
 }
+.columnTwo img {
+    margin: 0 auto;
+  display: block;
+  height: 300px;
+  width: auto;
+}
 
+.ongoingProjectsContainer {
+   padding: 0;
+   /* margin-right: 90px;
+    margin-left: 90px;*/
+  list-style: none;
+  
+   display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around
+}
+.ongoingProject img {
+    width: 350px;
+    height: 350px;
+}
+.ongoingProject {
+  background: none;
+  padding: 5px;
+  width: 350px;
+  height: 550px;
+  margin-top: 10px;
 
-
-
-
-
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
 
 
 
@@ -291,14 +324,14 @@ flex: 0 1 auto;
 align-self: auto;
 margin: 0 auto;
 }
-.columnTwo {
+.columnTwoVertical {
 order: 2;
 flex-basis: auto;
 flex: 0 1 auto;
 align-self: auto;
 margin: 0 auto;
 } 
-.columnTwo p {
+.columnTwoVertical p {
     font-size: 15px;
     color: black;
 }
