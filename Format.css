@@ -1,3 +1,24 @@
+.nav {
+     background-color: transparent;
+    list-style: none;
+    display: absolute;
+}
+.nav li a {
+  width: 100px;
+  color: white;
+  text-decoration:none;
+  font-size: 20px;
+}
+.nav li a:hover{
+  color: #F8DA5B;
+  transition: all .3s linear;
+}
+
+.nav li{
+  float: right;
+  padding: 30px;
+}
+
 .hero {
 	 line-height: .5; 
   position: relative;
@@ -271,9 +292,6 @@ footer {
 
 
 @media (max-width: 450px){
-  .hero{
-    background-color: black;
-  }
   .hero h1 {
     font-size: 40px;
   }
