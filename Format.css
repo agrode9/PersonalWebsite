@@ -393,10 +393,11 @@ footer {
 
 @media (max-width: 600px){
   .hero{
-    height: 500px;
+    height: 250px;
   }
   .hero h1 {
     font-size: 40px;
+    top: 100;
   }
   .nav li {
     padding: 10px;
