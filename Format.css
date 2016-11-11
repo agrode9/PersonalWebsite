@@ -408,6 +408,10 @@ footer {
   }
   .subHero h1{
     font-size: 30px;
+    padding-top: 10px;
+  }
+  .subHero{
+    height: 150px;
   }
   h1 {
     font-size: 30px;
