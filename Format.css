@@ -199,12 +199,15 @@ footer {
 	background-color: #F5F9EE;
 	height: 300px;
 }
-@media handheld and (max-width: 450px){
+
+
+
+@media handheld{
   .hero{
     background-color: black;
   }
   .hero h1 {
-    font-size: 40px;
+    font-size: 10px;
   }
 }
 
