@@ -207,6 +207,14 @@ footer {
     font-size: 40px;
   }
 }
+@media handheld and (max-width: 450px){
+  .hero{
+    background-color: black;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+}
   @media screen and (min-width: 75em) {
     .hero img {
       object-fit: cover;
