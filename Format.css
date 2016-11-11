@@ -33,8 +33,26 @@
 	width: 97%;
 	padding-top: 75px;
 }
+.tech {
+  background-color: #F8DA5B;
+  height: 400px;
+}
+.tech h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tech img{
+  margin: 0 auto;
+  height: 280px;
+  display: block;
+  width: auto;
 
-
+}
 
 
 
@@ -139,7 +157,6 @@ button:hover{
   cursor: pointer;
 
 }
-
 .tint:before {
   content: "";
   display: block;
@@ -157,7 +174,11 @@ button:hover{
   transition: all .3s linear;
 }
 
-
+.recentProjectsContainer h2{
+  color: black;
+  text-align: center;
+  display: inline-table;
+}
 
 
 
