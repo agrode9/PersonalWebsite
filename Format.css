@@ -114,12 +114,15 @@ body {
 
 
 h1 {
+  
+font-family: 'Lato', serif;
 	position: relative;
 	font-size: 70px;
 	text-align: center;
 	width: 100%
 }
 h2 {
+  font-family: 'Lato', serif;
   position: relative;
   font-size: 50px;
   text-align: center;
@@ -127,9 +130,11 @@ h2 {
   width: 100%
 }
 p {
+  font-family: 'Lato', serif;
 	color: black;
 }
 h3 {
+  font-family: 'Lato', serif;
 	color: black;
   font-size: 22px;
 	text-align: center;
@@ -453,6 +458,20 @@ footer {
     margin-right: 10px;
     margin-left: 10px;
   }
+
+.footerList a{
+  margin: 0 auto;
+}
+
+.footerList li {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.footerListWords a {
+    padding: 10px;
+}
+
+
 }
 
   @media screen and (min-width: 75em) {
