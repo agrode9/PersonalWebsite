@@ -292,9 +292,46 @@ footer {
 
 
 @media (max-width: 450px){
+  .hero{
+    height: 500px;
+  }
   .hero h1 {
     font-size: 40px;
   }
+  .nav li {
+    padding: 20px;
+
+  }
+  .subHero h1{
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .tech h1 {
+    font-size: 30px;
+  }
+  .tech img {
+    height: 200px;
+  }
+  .tech{
+    height: 300px;
+  }
+  .tint:before{
+    background: rgba(0,0,0, .6);
+  }
+
+  button{
+  display: inline;
+  background-color: white;
+  color: black;
+  transition: all .3s linear;
+
+  }
+
+
+
+
 }
 
   @media screen and (min-width: 75em) {
