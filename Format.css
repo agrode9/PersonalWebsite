@@ -409,6 +409,9 @@ footer {
   .subHero h1{
     font-size: 30px;
   }
+  .subHero{
+    height: 170px;
+  }
   h1 {
     font-size: 30px;
   }
@@ -416,7 +419,7 @@ footer {
     font-size: 30px;
   }
   .tech img {
-    height: 200px;
+    height: 160px;
   }
   .tech{
     height: 300px;
