@@ -1,7 +1,7 @@
 .nav {
      background-color: transparent;
     list-style: none;
-    display: absolute;
+    display: relative;
 }
 .nav li a {
   width: 100px;
@@ -299,8 +299,11 @@ footer {
     font-size: 40px;
   }
   .nav li {
-    padding: 20px;
-
+    padding: 10px;
+  }
+  .nav li a {
+    width: 30px;
+    font-size: 20px;
   }
   .subHero h1{
     font-size: 30px;
@@ -326,8 +329,27 @@ footer {
   background-color: white;
   color: black;
   transition: all .3s linear;
-
+    height: 60px;
+    width: 200px;
+    margin-left: 55px;
+    margin-top: 150px;
   }
+.project img {
+    width: 300px;
+    height: 300px;
+}
+.project {
+  background: none;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
 
 
 
