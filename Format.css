@@ -298,7 +298,14 @@ background-color: #b70101;
   font-size: 3em;
   text-align: center;
 }
-
+.ongoingProject a {
+  text-decoration: none;
+  color: #247291;
+}
+.ongoingProject a:hover{
+   color: #F8DA5B;
+  transition: all .3s linear;
+}
 
 
 
@@ -367,8 +374,8 @@ margin: 0 auto;
 
 }
 .footerListWords a:hover{
-    color: #247291;
-}
+    color: #F8DA5B;
+  transition: all .3s linear;
 
 footer {
 	background-color: #F5F9EE;
