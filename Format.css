@@ -155,14 +155,14 @@ h3 {
   justify-content: space-around
 }
 .project img {
-    width: 350px;
-    height: 350px;
+    width: 270px;
+    height: 270px;
 }
 .project {
   background: none;
   padding: 5px;
-  width: 350px;
-  height: 350px;
+  width: 270px;
+  height: 270px;
   margin-top: 10px;
 
   color: white;
@@ -185,8 +185,8 @@ button {
     position: absolute;
     height: 60px;
     width: 200px;
-    margin-left: 80px;
-    margin-top: 170px;
+    margin-left: 41px;
+    margin-top: 125px;
     font-size: 14px;
 }
 button:hover{
