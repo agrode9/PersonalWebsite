@@ -372,6 +372,7 @@ margin: 0 auto;
 .columnTwoVertical p {
     font-size: 15px;
     color: black;
+    margin-left: 20px;
 }
 .footerListWords {
 	margin: 0 auto;
@@ -442,7 +443,10 @@ align-content: flex-start;
 
 
 @media (max-width: 600px){
-
+.columnTwoVertical p {
+    margin-left: 12px;
+    margin-top: 20px
+}
   .hero{
     height: 250px;
   }
@@ -516,7 +520,6 @@ align-content: flex-start;
   }
 
 .footerList a{
-  margin: 0 auto;
 }
 
 .footerList li {
@@ -524,7 +527,7 @@ align-content: flex-start;
   padding-right: 14px;
 }
 .footerListWords a {
-    padding: 10px;
+    padding: 20px;
 }
 
 }
