@@ -443,10 +443,10 @@ align-content: flex-start;
 
 
 @media (max-width: 600px){
-.columnTwoVertical p {
+/*.columnTwoVertical p {
     margin-left: 12px;
     margin-top: 20px
-}
+}*/
   .hero{
     height: 250px;
   }
@@ -527,7 +527,7 @@ align-content: flex-start;
   padding-right: 14px;
 }
 .footerListWords a {
-    padding: 20px;
+    padding: 10px;
 }
 
 }
