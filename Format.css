@@ -347,12 +347,23 @@ align-self: center;
 
 
       /*FOOTER */
+.footImg {
+  display: block;
+  margin: 0 auto;
+  order: 2;
+  height: 80px;
+}
+.footImg img {
+  height: 100px;
+  width: auto;
+
+}
 .twoColumnFlexVertical{
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
-justify-content: flex-start;
-align-content: flex-start;
+justify-content: center;
+align-content: center;
 
 }
 .columnOne{
@@ -373,6 +384,8 @@ margin: 0 auto;
     font-size: 15px;
     color: black;
     margin-left: 20px;
+    text-align: center;
+    margin-top: 60px;
 }
 .footerListWords {
 	margin: 0 auto;
@@ -381,20 +394,20 @@ margin: 0 auto;
 }
 .footerList a{
   margin: 0 auto;
+  text-align: center;
 }
 .footerList ul {
   list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 .footerList li {
-  padding-left: 10px;
-  padding-right: 20px;
+  /*padding: 20px;*/
+  margin-top: 20px;
   list-style-type: none;
   float: left;
-
-  padding-top: 62px;
   padding-bottom: 25px;
+  display: block;
+  margin-right: 40px;
+
 }
 .footerListWords a {
     text-decoration: none;
@@ -447,6 +460,8 @@ align-content: flex-start;
     margin-left: 12px;
     margin-top: 20px
 }*/
+
+
   .hero{
     height: 250px;
   }
@@ -519,16 +534,6 @@ align-content: flex-start;
     margin-left: 10px;
   }
 
-.footerList a{
-}
-
-.footerList li {
-  padding-left: 14px;
-  padding-right: 14px;
-}
-.footerListWords a {
-    padding: 20px;
-}
 
 }
 /*@media (max-width: 400px){
