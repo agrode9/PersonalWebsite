@@ -351,7 +351,7 @@ align-self: center;
   display: block;
   margin: 0 auto;
   order: 2;
-  height: 60px;
+  height: 70px;
 }
 .footImg img {
   height: 100px;
@@ -532,7 +532,16 @@ align-content: flex-start;
     margin-right: 10px;
     margin-left: 10px;
   }
-
+.footerList li {
+  /*padding: 20px;*/
+  margin-top: 20px;
+  list-style-type: none;
+  float: left;
+  padding-bottom: 25px;
+  display: block;
+  padding: 1px;
+  margin-bottom: 10px;
+}
 
 }
 /*@media (max-width: 400px){
