@@ -356,6 +356,8 @@ align-self: center;
 .footImg img {
   height: 100px;
   width: auto;
+  display: block;
+  margin: 0 auto;
 }
 .footerList li img {
   height: 60px;
@@ -408,8 +410,10 @@ margin: 0 auto;
   float: left;
   padding-bottom: 25px;
   display: block;
+}
+.footerList li img {
+  padding: 10px;
   margin-right: 40px;
-
 }
 .footerListWords a {
     text-decoration: none;
@@ -417,7 +421,7 @@ margin: 0 auto;
     font-size: 20px;
     text-align: center;
     color: black;
-    padding: 20px;
+    padding: 10px;
 
 }
 .footerListWords a:hover{
@@ -541,12 +545,20 @@ align-content: flex-start;
   list-style-type: none;
   padding-bottom: 25px;
   padding: 4px;
-  margin-right:2px;
-  margin-left: 2px;
 
 }
+.footerList li {
+  /*padding: 20px;*/
+  margin-top: 20px;
+  list-style-type: none;
+  float: left;
+  padding-bottom: 25px;
+  display: block;
+  margin: 0 auto;
+}
 .footerList li img {
-  height: 50px;
+  padding: 1px;
+  margin-right: 3px;
 }
 }
 /*@media (max-width: 400px){
