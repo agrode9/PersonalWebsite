@@ -540,8 +540,9 @@ align-content: flex-start;
   margin-top: 20px;
   list-style-type: none;
   padding-bottom: 25px;
-  display: block;
-  margin: 0 auto;
+  padding: 4px;
+  margin-right:2px;
+  margin-left: 2px;
 
 }
 .footerList li img {
