@@ -483,8 +483,13 @@ align-content: flex-start;
     font-size: 20px;
   }
   .subHero h1{
-    font-size: 30px;
-    padding-top: 10px;
+  font-size: 30px;
+  padding-top: 20px;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  width: 95%;
   }
   .subHero{
     height: 150px;
