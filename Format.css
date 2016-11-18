@@ -357,6 +357,9 @@ align-self: center;
   height: 100px;
   width: auto;
 }
+.footerList li img {
+  height: 60px;
+}
 .twoColumnFlexVertical{
 display: flex;
 flex-direction: column;
@@ -536,13 +539,12 @@ align-content: flex-start;
   /*padding: 20px;*/
   margin-top: 20px;
   list-style-type: none;
-  float: left;
   padding-bottom: 25px;
-  display: block;
-  padding: 1px;
-  margin-bottom: 10px;
-}
 
+}
+.footerList li img {
+  height: 50px;
+}
 }
 /*@media (max-width: 400px){
   .columnTwoVertical p {
