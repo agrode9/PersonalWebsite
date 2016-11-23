@@ -346,6 +346,7 @@ align-self: center;
 .ongoingProject a {
   text-decoration: none;
   color: #247291;
+  font-size: 30px;
 }
 .ongoingProject a:hover{
    color: #F8DA5B;
@@ -356,7 +357,6 @@ align-self: center;
   width: auto;
   display: inline;
 }
-
 
 
 
