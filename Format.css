@@ -45,6 +45,10 @@
 .subHero{
 	background-color: #F8DA5B;
 	height: 200px;
+    background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center 0px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%);
 }
 .subHeroPort{
   background-color: #F8DA5B;
