@@ -13,6 +13,7 @@
 .nav li a:hover{
   color: #F8DA5B;
   transition: all .3s linear;
+  cursor: pointer;
 }
 
 .nav li{
@@ -71,6 +72,7 @@ margin-bottom: -10%;
 .subHero a:hover{
   transition: all .3s linear;
   color: #EEF2E2;
+  cursor: pointer;
 }
 .subHero h1 {
 	color: black;
@@ -211,6 +213,7 @@ button:hover{
   background-color: white;
   color: black;
   transition: all .3s linear;
+  cursor: pointer;
 }
 .tint {
   position: relative;
@@ -234,6 +237,7 @@ button:hover{
 .tint:hover button{
   display: inline;
   transition: all .3s linear;
+  cursor: pointer;
 }
 
 .recentProjectsContainer h2{
@@ -352,6 +356,7 @@ align-self: center;
 .ongoingProject a:hover{
    color: #F8DA5B;
   transition: all .3s linear;
+  cursor: pointer;
 }
 .upd img {
   height: 25%;
@@ -445,6 +450,7 @@ margin: 0 auto;
 .footerListWords a:hover{
     color: #F8DA5B;
   transition: all .3s linear;
+  cursor: pointer;
 }
 footer {
 	background-color: #F5F9EE;
