@@ -1,4 +1,6 @@
-
+.mobileContact {
+  display: none;
+}
 .nav {
      background-color: transparent;
     list-style: none;
@@ -568,8 +570,7 @@ align-content: flex-start;
     margin-right: 10px;
     margin-left: 10px;
   }
-.footerList li {
-  /*padding: 20px;*/
+/*.footerList li {
   margin-top: 20px;
   list-style-type: none;
   padding-bottom: 25px;
@@ -577,19 +578,16 @@ align-content: flex-start;
 
 }
 .footerList li {
-  /*padding: 20px;*/
   margin-top: 20px;
   list-style-type: none;
   float: left;
   padding-bottom: 25px;
   display: block;
   margin: 0 auto;
-}
+}*/
 .footerList li img {
-  padding: 1px;
-  margin-right: 3px;
+display: none;
 }
-
 .subHeroPort{
   background-color: #F8DA5B;
   height: 150px;
@@ -610,4 +608,20 @@ align-content: flex-start;
   display: inline-block;
 margin-bottom: -20%;
 }
+
+
+.mobileContact {
+  text-align: center;
+  display: block;
+}
+.mobileContact a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #247291;
+  padding:10px;
+  border-radius: 10px;
+}
+
+
 }
