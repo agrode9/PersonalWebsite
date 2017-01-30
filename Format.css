@@ -6,6 +6,12 @@
     list-style: none;
     display: relative;
 }
+.onPage a{
+  border-bottom:4px solid white;
+}
+.onPage a:hover{
+  border-bottom:4px solid #F8DA5B;
+}
 .nav li a {
   width: 100px;
   color: white;
