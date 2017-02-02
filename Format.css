@@ -847,6 +847,9 @@ align-content: flex-start;
   align-self: auto;
 
 }
+.wordsSBSP h1{
+  margin-top: -80px;
+}
 .wordsSBSP p {
   margin: 20px;
 }
