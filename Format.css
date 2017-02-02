@@ -79,6 +79,24 @@ float: left;
 #menu a:hover{color:#037584; 
 }
 
+#social{
+  z-index:1000000; 
+  font-weight:bold; 
+  font-size:0.8em; 
+  width:40%;   
+  position:relative; 
+  text-align:center;
+  margin: 0 auto;
+  display: block;
+
+}
+#social img {
+  height: 33px;
+  width: auto;
+}
+#social a:hover{
+
+}
 
 
 
@@ -568,7 +586,23 @@ footer {
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1000px){
+  #menu img {
+}
     #menu{z-index:1000000; 
   font-weight:bold; 
   font-size:0.8em; 
@@ -745,6 +779,7 @@ align-content: flex-start;
   }
   h1 {
     font-size: 30px;
+    margin-top: 40px;
   }
   .tech h1 {
     font-size: 30px;
