@@ -1,7 +1,6 @@
 <html>
   <link href="Format.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
-
 <head>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -24,7 +23,7 @@
     <div id="menu">
       <ul>
         <a href=""><li>About Me</li></a>
-        <a href=""><li>Resume</li></a>
+        <a href=""><li>Resume/Portfolio</li></a>
         <a href=""><li>Contact</li></a>
      </ul>
     </div>
@@ -35,6 +34,7 @@
     </div> 
 
     <h1>Hi, I'm Aaron Grode</h1>
+
   </div>
  <!--  <div class ="subHero">
       <h1>Let's build something wonderful together.</h1>
@@ -42,6 +42,8 @@
 </head>
 <div class="sideBySideParent">
   <div class="wordsSBSP">
+    <h1>About Me</h1>
+  <hr>
     <p>I'm a Computer Science student at UW-Madison who is passionate about technology and medicine.
         Most of my work is done at my current internship through <a href="https://umark.wisc.edu/" target="_blank">University Marketing</a> where I help
         maintain and create university sites.</p>
@@ -53,7 +55,10 @@
   </div>
 </div>
 <body>
-  <h1>Recent Projects</h1>
+  <div class="resume">
+  <h1>Resume</h1>
+  <hr>
+
   <ul class="recentProjectsContainer">
     <figure class="tint">
       <a href="http://www.tedxuwmadison.com" target="_blank"><button>View Project</button></a>
@@ -71,8 +76,32 @@
     </figure>
 
   </ul>
+</div>
+  <div class="contact">
+     <h1>Contact Me</h1>
+      <hr>
+   
+        <h2>Let's build something wonderful together.</h2>
+
+        <form action="https://formspree.io/grode2@wisc.edu" method="POST" target="_blank">
+            <ul class="container">
+                <li class="row">
+                    <input type="text" name="name" placeholder="Name" required>
+          
+                    <input type="email" name="_replyto" placeholder="E-mail" required>
+
+                    <textarea type="text" name="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send" id="contact-form-send">
+                    <input type="hidden" name="_cc" value="grode2@wisc.edu"/>
+                </li>
+             </ul>
+        </form>
+</div>
+
+
+  </div>
 </body>
-<footer>
+<!-- <footer>
   <div class="twoColumnFlexVertical">
     <div class="columnOne">
         <ul class="footerList">
@@ -97,7 +126,7 @@
 <div class="mobileContact">
   <a href="http://www.classixpro.com/#contact">Contact Me</a>
   </div>
-</footer>
+</footer> -->
   <script type="text/javascript">
 <!--
     function toggle_visibility(id) {

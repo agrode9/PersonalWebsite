@@ -1,4 +1,90 @@
 
+.container{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.row{
+  width: 40%;
+  order: 1;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
+
+}
+.row3 {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+.row3 textarea{
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.row3 input{
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+input, textarea {
+  width: 100%;
+    height: 50px;
+    border: solid #00599a 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: white;
+    /*background-color: rgba(0,0,0,0);*/
+   /* font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.2em;
+}
+#contact-form-send{
+  background-color: #262228;
+  color: white;
+   border: solid white 2px;
+}
+#contact-form-send:hover{
+  background-color: #FFCE00;
+  color: black;
+  transition: all .3s linear;
+
+}
+
+
+
+hr{
+  display: block;
+    margin-top: -40px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 40px;
+}
+
+
+body{
+  background-image: url("background.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
 .sideBySideParent{
   display: flex;
   flex-direction: row;
@@ -97,9 +183,21 @@ float: left;
 #social a:hover{
 
 }
+.contact{
 
-
-
+  position: relative;
+  background-color: #0375B4;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.resume{
+  background-color: #262228;
+}
+.contact p{
+  text-align: center;
+  margin: 80px;
+}
 
 
 .mobileContact {
@@ -136,11 +234,13 @@ float: left;
 .hero {
   position: relative;
   background-color: #0375B4;
+  /*opacity: .7;*/
   height: 70%;
   display: block;
   width: auto;
   overflow: hidden;
 }
+
 .hero img{
   width: 7%;
   height: auto;
@@ -161,7 +261,6 @@ margin-bottom: -10%;
     background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center 0px;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%);
 }
 .subHeroPort{
   background-color: #F8DA5B;
@@ -252,7 +351,7 @@ body {
 
 
 h1 {
-  
+  color: white;
 font-family: 'Overpass', sans-serif;
 	position: relative;
 	font-size: 70px;
@@ -627,7 +726,14 @@ footer {
 #menu a{text-decoration:none; color:#262228; font-size: 20px;}
 }
 @media(max-width: 900px){
+.row{
+  width: 70%;
+  order: 1;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
 
+}
 
   .twoColumnFlexHorizontal{
 display: flex;
@@ -880,6 +986,15 @@ margin-bottom: -20%;
   padding:10px;
   border-radius: 10px;
 }
-
+hr{
+  display: block;
+    margin-top: -10px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 40px;
+}
 
 }
