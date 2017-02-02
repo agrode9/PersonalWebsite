@@ -63,7 +63,15 @@ display: none;}
 #menu a:hover{text-decoration:none; color:white;}
 
 
+  @media screen and (min-width: 75em) {
+    .pictureSBSP img {
+      object-fit: cover;
+      object-position: 0% 20%;
+      /*the defualt was at 400px for max-height*/
+      max-height: 450px; 
+    }
 
+}
 
 
 
