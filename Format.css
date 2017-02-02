@@ -1,3 +1,73 @@
+
+.sideBySideParent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start; 
+  background-color: #007849;
+  height: 550px;
+}
+
+.wordsSBSP{
+  order: 1;
+  flex-basis: 50%;
+    align-self: auto;
+
+}
+.wordsSBSP p {
+  margin: 80px;
+}
+.pictureSBSP{
+  order:2;
+  flex-basis: 50%;
+  align-self: auto;
+
+}
+.pictureSBSP img{
+    height: 100%;
+    width: auto;
+  }
+
+header button{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#hamburger{
+  background:none;
+  position:relative;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:1.8em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:relative; text-align:center;
+display: none;}
+#menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+#menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+#menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+#menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+#menu ul li a:hover {  color: #fff; text-decoration:none;}
+#menu a{text-decoration:none; color:white; font-size: 20px;}
+#menu a:hover{text-decoration:none; color:white;}
+
+
+
+
+
+
+
 .mobileContact {
   display: none;
 }
@@ -30,10 +100,9 @@
 }
 
 .hero {
-	 line-height: .5; 
   position: relative;
-  background-color: #247291;
-  height: 98%;
+  background-color: #0375B4;
+  height: 70%;
   display: block;
   width: auto;
   overflow: hidden;
@@ -45,11 +114,11 @@
 margin-bottom: -10%;
 }
 .hero h1{
-	 left: 0;
     position:absolute;
     text-align:center;
-    top: 250px;
-    width: 98%;
+    display: block;
+    top: 150;
+
     color: white;
 }
 .subHero{
@@ -134,7 +203,14 @@ margin-bottom: -10%;
 
 
 
-
+a{
+  font-family: 'Overpass', sans-serif;
+  text-decoration: none;
+  color: #FFCE00;
+}
+a:hover{
+    border-bottom:2px solid white;
+}
   /*BODY*/
 body {
 	background-color: #EEF2E2;
@@ -143,14 +219,14 @@ body {
 
 h1 {
   
-font-family: 'Lato', serif;
+font-family: 'Overpass', sans-serif;
 	position: relative;
 	font-size: 70px;
 	text-align: center;
 	width: 100%
 }
 h2 {
-  font-family: 'Lato', serif;
+ font-family: 'Overpass', sans-serif;
   position: relative;
   font-size: 50px;
   text-align: center;
@@ -158,11 +234,12 @@ h2 {
   width: 100%
 }
 p {
-  font-family: 'Lato', serif;
-	color: black;
+ font-family: 'Overpass', sans-serif;
+	color: white;
+  font-size: 20px;
 }
 h3 {
-  font-family: 'Lato', serif;
+  font-family: 'Overpass', sans-serif;
 	color: black;
   font-size: 22px;
 	text-align: center;
@@ -448,7 +525,7 @@ margin: 0 auto;
 }
 .footerListWords a {
     text-decoration: none;
-    font-family: 'Lato', san-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: 20px;
     text-align: center;
     color: black;
@@ -505,7 +582,7 @@ align-content: flex-start;
   }
   .hero h1 {
     font-size: 40px;
-    top: 100;
+    top: 70;
   }
   .nav li {
     padding: 10px;

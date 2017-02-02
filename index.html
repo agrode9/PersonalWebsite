@@ -1,7 +1,6 @@
 <html>
   <link href="Format.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Lato">
+<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
 
 <head>
   <script>
@@ -19,19 +18,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <div class="hero">
-    <a href="http://www.classixpro.com/"><img src="logo.png"></a>
+    <header>
+  <button id="hamburger" onclick="toggle_visibility('menu', 'hamburger')">&#9776;</button>
+</header>
+<div id="menu">
+  <ul>
+    <a href=""><li>About Me</li></a>
+    <a href=""><li>Resume</li></a>
+    <a href=""><li>Contact</li></a>
+  </ul>
+</div> 
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+ <!--    <a href="http://www.classixpro.com/"><img src="logo.png"></a>
   <ul class="nav">
     <li><a href="Portfolio.html">Portfolio</a></li>
     <li><a href="Resume.html">Resume</a></li>
     <li class="onPage"><a href="">Home</a></li>
-  </ul>
+  </ul> -->
     <!-- <img src="hero.jpg">
- -->    <h1>Aaron Grode</h1>
+ -->    <h1>Hi, I'm Aaron Grode</h1>
   </div>
-  <div class ="subHero">
+ <!--  <div class ="subHero">
       <h1>Let's build something wonderful together.</h1>
-  </div>
+  </div> -->
 </head>
+<div class="sideBySideParent">
+  <div class="wordsSBSP">
+    <p>I'm a Computer Science student at UW-Madison who is passionate about technology and medicine.
+        Most of my work is done at my current internship through <a href="https://umark.wisc.edu/" target="_blank">University Marketing</a> where I help
+        maintain and create university sites.</p>
+      <p>I plan to get my B.S. in Computer Science in 2019 and head to med school where I plan to
+        pursue Neuroradiology</p>
+  </div>
+  <div class="pictureSBSP">
+    <img src="pic2.png">
+  </div>
+</div>
 <body>
   <h1>Recent Projects</h1>
   <ul class="recentProjectsContainer">
