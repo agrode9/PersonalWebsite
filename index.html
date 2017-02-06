@@ -22,9 +22,9 @@
     </header>
     <div id="menu">
       <ul>
-        <a href=""><li>About Me</li></a>
-        <a href=""><li>Resume/Portfolio</li></a>
-        <a href=""><li>Contact</li></a>
+        <a href="#about"><li>About Me</li></a>
+        <a href="#resume"><li>Resume/Portfolio</li></a>
+        <a href="#contact"><li>Contact</li></a>
      </ul>
     </div>
     <div id="social">
@@ -40,10 +40,10 @@
       <h1>Let's build something wonderful together.</h1>
   </div> -->
 </head>
-<div class="sideBySideParent">
+<a name="about"><div class="sideBySideParent"></a>
   <div class="wordsSBSP">
-    <h1>About Me</h1>
-  <hr>
+    <!-- <h1>About Me</h1> -->
+  <!-- <hr> -->
     <p>I'm a Computer Science student at UW-Madison who is passionate about technology and medicine.
         Most of my work is done at my current internship through <a href="https://umark.wisc.edu/" target="_blank">University Marketing</a> where I help
         maintain and create university sites.</p>
@@ -56,30 +56,40 @@
 </div>
 <body>
   <div class="resume">
-  <h1>Resume</h1>
+  <a name="resume"><h1>Resume</h1></a>
   <hr>
-
-  <h1>Content is Currently Under Construction...</h1>
- <!--  <ul class="recentProjectsContainer">
-    <figure class="tint">
+  <h2>View an abridged <a href="resumeweb.pdf">PDF</a></h2>
+  <!-- <h1>Content is Currently Under Construction...</h1> -->
+<ul class="recentProjectsContainer">
+       <figure class="tint">
       <a href="http://www.tedxuwmadison.com" target="_blank"><button>View Project</button></a>
       <li class ="project"><img src="tedx.png"></li>
     </figure>
-
     <figure class="tint">
-      <a href="http://www.classixpro.com" target="_blank"><button>View Project</button></a>
+      <a href="http://www.classixpro.com/" target="_blank"><button>View Project</button></a>
       <li class ="project"><img src="pro.png"></li>
     </figure>
 
     <figure class="tint">
-      <a href="Portfolio.html#p2"><button>View Project</button></a>
-      <li class ="project"><img src="ug.png"></li>
+      <a href="http://preview.anthropology.wisc.edu/" target="_blank"><button>View Project</button></a>
+      <li class ="project"><img src="anthro.png"></li>
     </figure>
-
-  </ul> -->
+    <figure class="tint">
+      <a href="http://news.wisc.edu/then-and-now/" target="_blank"><button>View Project</button></a>
+      <li class ="project"><img src="then.png"></li>
+    </figure>
+    <figure class="tint">
+      <a href="http://test.editorial-styleguide.umark.wisc.edu/" target="_blank"><button>View Project</button></a>
+      <li class ="project"><img src="r.png"></li>
+    </figure>
+    <figure class="tint">
+      <a href="http://staging.research.wisc.edu/" target="_blank"><button>View Project</button></a>
+      <li class ="project"><img src="e.png"></li>
+    </figure>
+  </ul>
 </div>
   <div class="contact">
-     <h1>Contact Me</h1>
+     <a name="contact"><h1>Contact Me</h1></a>
       <hr>
    
         <h2>Let's build something wonderful together.</h2>
@@ -102,6 +112,12 @@
 
   </div>
 </body>
+<footer>
+  <a>&#9757;</a>
+
+  <h3>&#169; Aaron Grode 2017</h3>
+   <hr></hr>
+</footer>
 <!-- <footer>
   <div class="twoColumnFlexVertical">
     <div class="columnOne">
@@ -139,4 +155,5 @@
     }
 //-->
 </script>
+
 </html>

@@ -685,9 +685,56 @@ footer {
 }
 }
 
+footer{
+  text-align: center;
+  background-color: #262228;
+  padding-top: 100px;
+}
+footer h3{
+  color: white;
+  font-size: 0.8em;
+  /*margin-top: 200px;*/
 
+}
+footer hr{
+    display: block;
+    /*margin-top: -40px;*/
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 200px;
+    color: white;
+}
+footer a{
+  font-size: 60px;
+}
+footer a:hover{
+  border-bottom: none;
+  cursor: pointer;
+  transition: all 500ms ease; 
 
+    animation: bounce 1s;
 
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
 
 
 
@@ -889,6 +936,9 @@ align-content: flex-start;
   h1 {
     font-size: 30px;
     margin-top: 40px;
+  }
+  h2 {
+    font-size: 25px;
   }
   .tech h1 {
     font-size: 30px;
