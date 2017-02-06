@@ -710,6 +710,10 @@ footer hr{
 footer a{
   font-size: 60px;
 }
+footer a img{
+  height: 40px;
+  margin: 10px;
+}
 footer a:hover{
   border-bottom: none;
   cursor: pointer;
