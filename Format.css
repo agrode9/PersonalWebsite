@@ -740,6 +740,19 @@ footer a:hover{
 }
 
 
+@media(min-width: 1400px){
+  .hero{
+
+    height: 500px;
+
+  }
+  h1 {
+    font-size: 80px;
+  }
+
+
+}
+
 
 
 
