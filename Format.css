@@ -76,7 +76,18 @@ hr{
     border-width: 2px;
     width: 40px;
 }
-
+.video
+{
+ background-color: #007849;
+ padding-bottom: 100px;
+ margin-bottom: 60px;
+}
+iframe {
+  margin: 0 auto;
+  display: block;
+  width: 600px;
+  height: 400px;
+}
 
 body{
   background-image: url("background.jpg");
@@ -202,7 +213,7 @@ float: left;
 
 }
 .contact{
-
+margin-bottom: 60px;
   position: relative;
   background-color: #0375B4;
   display: block;
@@ -256,6 +267,7 @@ float: left;
   height: 70%;
   display: block;
   width: auto;
+  margin-bottom: 60px;
   overflow: hidden;
 }
 
@@ -1121,7 +1133,12 @@ body{
     background-attachment: fixed;
     overflow-x: hidden;
 }
-
+iframe {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 200px;
+}
 
 
 
