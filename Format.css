@@ -40,6 +40,8 @@
   margin-top: 20px;
 }
 input, textarea {
+    font-family: 'Overpass', sans-serif;
+
   width: 100%;
     height: 50px;
     border: solid #00599a 2px;
@@ -106,13 +108,13 @@ body{
   background-color: #007849;
 
 
-    display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   
   -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
   justify-content: space-around
 
 }
@@ -123,7 +125,8 @@ min-width: 0;
 .wordsSBSP{
   order: 1;
   flex-basis: 50%;
-    align-self: auto;
+  align-self: auto;
+    flex-flow: row wrap;
 
 }
 .wordsSBSP p {
@@ -134,11 +137,13 @@ min-width: 0;
   flex-basis: 50%;
   align-self: auto;
   display: block;
-    display: -webkit-box;
+  display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-flow: row wrap;
+
   
 }
 .pictureSBSP img{
@@ -420,6 +425,7 @@ h3 {
   display: flex;
   
   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
   justify-content: space-around
 }
 .project img {
@@ -835,6 +841,8 @@ footer a:hover{
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
+   flex-flow: row wrap;
+
 justify-content: flex-start;
 align-content: flex-start;
 
@@ -853,6 +861,8 @@ align-content: flex-start;
   justify-content: center;
   align-items: center;
   align-content: flex-start; 
+  flex-flow: row wrap;
+
   background-color: #007849;
   height: 650px;
   overflow: hidden;
