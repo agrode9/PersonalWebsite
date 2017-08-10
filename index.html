@@ -17,7 +17,7 @@
             ga('create', 'UA-87324613-1', 'auto');
             ga('send', 'pageview');
         </script> -->
-        <br><br><br><br><br><br><br><br><br>
+        <br id="main"><br><br><br><br><br><br><br><br>
         <h1>Hi, I'm Aaron Grode</h1>
     </header>
 
@@ -31,37 +31,59 @@
         <div class="highlight">
             <h2>Learn More</h2>
             <hr class="dark">
-             <br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br>
-            <p>resume link here</p>
+             <br>
+               <iframe src="https://www.youtube.com/embed/gIkAoLPN-54" frameborder="0" allowfullscreen></iframe>
+            <br><br><br>
+
         </div>
         <div class="resume">
+        <br><br><br>
+            <button id = "viewAll" onclick=" window.open('ResumeWeb.pdf');">Resume</button>
+            <br><br><br>
+            <hr class = "dark">
              <br><br><br><br>
                 <br><br><br><br>
             <br><br><br><br><br><br><br><br>
             <br><br><br><br><br><br><br><br>
-            <p>past projects here</p>
+
         </div>
         <div class="contact">
             <h2>Contact Me</h2>
             <hr class="dark">
             <h3>Let's build something wonderful together.</h3>
-            <p></p>
-             <br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br>
+            
+            <form action="https://formspree.io/grode2@wisc.edu" method="POST" target="_blank">
+            <ul class="container">
+                <li class="row">
+                    <input type="text" name="name" placeholder="Name" required>
+          
+                    <input type="email" name="_replyto" placeholder="E-mail" required>
+
+                    <textarea type="text" name="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send" id="contact-form-send">
+                </li>
+             </ul>
+        </form>
+             <br><br><br>   
+
         </div>
     </body>
     <footer>
-          <br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br>
-             <a href="https://github.com/agrode9" target="_blank"><img src="git.png"></a>
-             <a href="https://www.linkedin.com/in/AaronGrode" target="_blank"><img src="linkedin.png"></a>
+          <br><br><br><br>
+
+            <a href="#main">&#9757;</a>
+            <br>
+            <ul class="parentRow">
+                <li class = "footerObj">
+                    <a href="https://github.com/agrode9" target="_blank"><img src="git.png"></a>
+                </li>
+                <li class="footerObj">
+                    <a href="https://www.linkedin.com/in/AaronGrode" target="_blank"><img src="linkedin.png"></a>
+                </li>
+            </ul>
             <br><br>
             <hr>
             <p>&#169; Aaron Grode 2017</p>
-            <br>
+            <br><br><br><br>
     </footer>
 </html>

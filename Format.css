@@ -8,7 +8,7 @@ html
 {
 	background-color: #F4F7F7;
 }
-p,h1,h2,h3,h4
+p,h1,h2,h3,h4, button
 {
 	font-family: 'Overpass', sans-serif;
 	text-align: center;
@@ -75,8 +75,25 @@ hr
 	height: 0.50vw;
 	margin-top: -20px;
 }
+button
+{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	background: #34495E;
+	border: none;
+	color: #F4F7F7;
+	padding:15px 30px;
+	font-size: 1.2em;
+  	cursor: pointer;
 
-
+}
+button:hover
+{
+	color: #34495E;
+	background-color: #F4F7F7;
+	transition: all .3s linear;
+}
 /*************************************************End generals*************************************************/
 /*************************************************Body*************************************************/
 
@@ -103,6 +120,13 @@ hr
    	vertical-align: top;
    	width: 100%;
 }
+iframe {
+  margin: 0 auto;
+  display: block;
+  width: 600px;
+  height: 400px;
+}
+
 .resume
 {
 	background-color: #AACFD0;
@@ -120,12 +144,70 @@ hr
 
 
 /*************************************************End Body*************************************************/
+/*************************************************contact*************************************************/
+
+.container{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.row{
+  width: 40%;
+  order: 1;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
+
+}
+
+input, textarea {
+    font-family: 'Overpass', sans-serif;
+
+  	width: 100%;
+    height: 50px;
+    border: solid #00599a 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: white;
+    /*background-color: rgba(0,0,0,0);*/
+   /* font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.2em;
+}
+#contact-form-send{
+  background-color: #222;
+  color: white;
+   border: solid white 2px;
+}
+#contact-form-send:hover{
+  background-color: #AACFD0;
+  color: black;
+  transition: all .3s linear;
+  cursor: pointer;
+
+}
+textarea
+{
+    width: 100%;
+    height: 150px;
+}
+/*************************************************end contact*************************************************/
 /*************************************************Footer*************************************************/
 footer a{
   font-size: 60px;
-
-  display:inline-block;
-
+  display:block;
+  margin: 0 auto;
+  text-decoration: none;
 }
 footer a img{
   height: 40px;
@@ -137,6 +219,7 @@ footer
 	background-color: #222;
    	display:block;
    	margin: 0 auto;
+   	text-align: center;
    	vertical-align: top;
    	width: 100%;
 }
@@ -151,3 +234,38 @@ footer hr
 	height: 0.15vw;
 	margin-top: -20px;
 }
+.parentRow
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+.footerObj
+{
+
+}
+
+/*************************************************Mobile*************************************************/
+@media(max-width: 1000px)
+{
+	iframe {
+	  margin: 0 auto;
+	  display: block;
+	  width: 300px;
+	  height: 200px;
+	}
+}
+@media(max-width: 600px)
+{
+
+}
+
