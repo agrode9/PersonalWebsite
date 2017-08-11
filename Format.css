@@ -188,7 +188,7 @@ iframe {
   cursor: pointer;
   box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
 }
-.tint:before
+.tint:before, .tint::after
 {
 	content: "";
 	display: block;
@@ -207,6 +207,7 @@ iframe {
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
  }
+
 
 /*************************************************end work display*************************************************/
 /*************************************************contact*************************************************/
