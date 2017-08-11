@@ -163,7 +163,7 @@ iframe {
 }
 .project
 {
-	height: 260px;
+	height: 220px;
 	width: auto;
 	overflow: hidden;
 
@@ -186,12 +186,10 @@ iframe {
   margin-right: 20px;
   margin-bottom: 20px;
   cursor: pointer;
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
 }
-.tint:before, .tint::after
+.tint:after
 {
 	content: "";
-	display: block;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -200,14 +198,17 @@ iframe {
 	background: rgba(0,0,0, 0.6);
 	transition: all .3s linear;
 }
-
 .project:hover img
 {
 		-moz-transform: scale(1.1);
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
  }
+.flex h4 {
+	color: #F4F7F7;
+	position: absolute;
 
+}
 
 /*************************************************end work display*************************************************/
 /*************************************************contact*************************************************/
@@ -289,6 +290,10 @@ footer
    	vertical-align: top;
    	width: 100%;
 }
+footer a 
+{
+	color: #F4F7F7;
+}
 footer hr
 {
 	display: block;
@@ -315,11 +320,6 @@ footer hr
   -webkit-flex-flow: row wrap;
   justify-content: center;
 }
-.footerObj
-{
-
-}
-
 /*************************************************Mobile*************************************************/
 @media(max-width: 1000px)
 {
