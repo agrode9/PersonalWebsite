@@ -401,8 +401,25 @@ footer hr
 }
 @media(max-width: 600px)
 {
+	h1{
+		font-size:  2.827em ;
+
+	}
+	.project{
+		display: block;
+		margin: 0 auto;
+		margin: 10px;
+	}
 	.space
 	{
 		display: none;
+	}
+}
+
+@@media (max-width: 500px) {
+	header
+	{
+		height: 90%;
+
 	}
 }
