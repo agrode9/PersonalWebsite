@@ -294,7 +294,7 @@ input, textarea {
 
   	width: 100%;
     height: 50px;
-    border: solid #00599a 2px;
+    border: solid transparent 2px;
     margin-left: auto;
     margin-right: auto;
     margin: 10px 0 10px 0;
@@ -307,7 +307,7 @@ input, textarea {
 #contact-form-send{
   background-color: #222;
   color: white;
-   border: solid white 2px;
+   border: solid transparent 2px;
 }
 #contact-form-send:hover{
   background-color: #AACFD0;
